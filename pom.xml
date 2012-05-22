@@ -43,7 +43,7 @@
 		<repository>
 			<id>repo-snapshot</id>
 			<name>Snapshots bundles</name>
-			<url>http://tadmin:nokia123@localhost:8082/archiva/repository/repo-snapshot/</url>
+			<url>http://tadmin:tadmin@localhost:8082/archiva/repository/repo-snapshot/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
