@@ -10,4 +10,4 @@ And this to deploy user routines
 
     mvn install:install-file -DgroupId=org.talend.camel -DartifactId=userRoutines -Dversion=1.0.0 -Dfile=./src/ext/userRoutines.jar -Dpackaging=jar -DgeneratePom=true
 
-After that you need to import Route from the <strong>src/route</strong>
+After that you need to import Route from the <strong>src/route</strong> into your Studio and publish it from there to your Talend Artifact Repository (Archiva). Make sure your arciva location and username/password are valid in the <strong>pom.xml</strong>.
